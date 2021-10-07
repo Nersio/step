@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../img/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 80px auto 20px;
+    width: 100%;
+    background: rgba(194, 191, 191, 0.6);
+    text-align: center;
+    text-transform: uppercase;
+    padding:15px 0;
+}
+
+.header__title{
+    display: block;
+    font-weight: 300;
+}
+
+.form__text{
+    margin: 10px auto;
+}
+
+.main{
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(194, 191, 191, 0.6);
+    padding: 15px 0;
+}
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input{
+    width: 94%;
+    padding: 10px;
+}
+
+.form__username{
+    margin: 15px 0;
+}
+
+
+.form__checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.form__checkbox{
+    margin-right: 10px;
+}
+
+.btn{
+    margin: 30px auto 10px;
+    background: rgb(29, 80, 190);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.forget{
+    display: block;
+    color:rgb(29, 80, 190) ;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}

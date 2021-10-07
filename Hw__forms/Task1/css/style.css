@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(199, 198, 198);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background: url(../image/world2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 60%;
+    padding: 100px 150px 70px 30px;
+    position: relative;
+    
+}
+
+.card__text{
+    margin: 10px 0;
+    font-size: 20px;
+    padding-right: 30px;
+    
+}
+
+.card__size{
+    width: 70%;
+}
+
+.card__number{
+    padding: 10px;
+    width: 95%;
+    background: rgba(136, 209, 203, 0.6);
+    margin: 0 0 10px 0;
+    border:1px solid rgb(136, 209, 203);
+    border-bottom: 1px solid black;
+}
+
+.distance{
+    margin: 0 15px 0 0;
+}
+
+.distance:last-child{
+    margin: 0;
+}
+
+.card__block{
+    position: absolute;
+    width: 70%;
+    background: rgb(216, 98, 29);
+    color: white;
+    padding: 15px 30px;
+    top: 7%;
+    left: -5%;
+    text-transform: uppercase;
+    font-size: 20px;
+}

@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(204, 200, 200);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    max-width: 1440px;
+    min-width: 900px;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow:0px 0px 30px 0px rgba(50, 50, 50, 1);
+    padding: 50px 35px 100px;
+}
+
+.card{
+    display: flex;
+
+}
+
+.card__part{
+    width: 50%;
+}
+
+.card__part__title{
+    margin-bottom: 20px;
+}
+
+.card__part__item{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card__part__item__image{
+    width: 35px;
+    margin-right: 15px;
+}
+
+.input__text{
+    padding: 10px 20px;
+    background: rgb(204, 200, 200);
+    border:none;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+.card__part__item__flex{
+    display: flex;
+    width: 50%;
+}
+
+.pswd{
+    width: 63%;
+}
+
+.confirm{
+    display: block;
+    width: 38%;
+}
+
+.card__part__item__space{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.half{
+    width: 40%;
+}
+
+.half__sex{
+    width: 46.5%;
+    
+}
+
+.half__date{
+    padding: 8px 20px;
+}
+
+.check{
+    margin: 30px 0;
+}
+
+.check__flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+
+.check__text{
+    margin: 0;
+}
+
+.last::before{
+    content: '';
+    display: block;
+    width: 100%;
+    border:.5px solid rgb(192, 188, 188);
+    left: 0;
+}
+
+.last{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.btn{
+    float: right;
+    margin: 30px 20px;
+    padding: 10px;
+    background: rgb(47, 165, 211);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .card{
+        display: block;
+    }
+
+    .card__part{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .large{
+        width: 100%;
+    }
+
+    .pswd{
+        width: 100%;
+    }
+
+    .confirm{
+        width: 45%;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .card{
+        display: block;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .card__part{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .large{
+        width: 100%;
+    }
+
+    .card__part__item__flex{
+        width: 100%;
+    }
+
+    .pswd{
+        width: 100%;
+    }
+
+    .confirm{
+        display: block;
+        float: right;
+        width: 90%;
+        margin:15px 0 20px;
+    }
+
+    .card__part__item__space{
+        display: block;
+    }
+
+    .half{
+        display: block;
+        width: 95.5%;
+        margin-top: 15px;
+    }
+
+    .half__sex{
+        width: 100%;
+    }
+}   

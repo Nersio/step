@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(218, 215, 215);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__girl{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper__girl>div{
+    margin: 10px;
+}
+
+.wrapper__booiiiii>div{
+    margin: 10px;
+}
+
+.wrapper__name>.wrapper__name__name,.wrapper__name__time{
+    margin: 0;
+}
+
+.girl{
+    background: rgb(190, 61, 169);
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.wrapper__booiiiii{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+   
+}
+
+.boiiii{
+    background: rgb(77, 131, 231);
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 10px;
+    padding: 10px;
+}
+
+.wrapper__chat{
+    width: 46%;
+}

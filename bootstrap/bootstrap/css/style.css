@@ -1,0 +1,119 @@
+.body{
+    box-sizing: border-box;
+}
+
+.header__img {
+    display: block;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.blue {
+    color: rgb(71, 214, 240);
+    text-decoration: none;
+}
+
+.size {
+    margin-bottom: 32px;
+}
+
+.row {
+    margin: 10px;
+}
+
+.col-3 {
+    margin-top: 20px;
+    position: relative;
+}
+
+.main__img {
+    width: 70px;
+}
+
+.link__main {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.footer__img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.footer__link {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.prity {
+    background-color: rgb(124, 195, 236);
+}
+
+.bla{
+    position: relative;
+}
+
+.bi-zoom-in{
+    position: absolute;
+    top:30%;
+    left: 26px;
+}
+
+.form-select{
+    padding-left: 35px; 
+}
+
+
+
+.container__item{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.container__item__img{
+    width: 10%;
+}
+
+.container__item__title{
+    color:blue;
+    margin-left: 35px;
+}
+
+.container__item__text__text{
+    margin: 90px 0 0 35px;
+}
+
+.shit{
+    margin-left: 10px;
+}
+
+p{
+    margin: 0 10px;
+}
+
+.price{
+    position: absolute;
+    right: 3%;
+    top: 7%;
+}
+
+.mine-class{
+    margin-top: 30px;
+}
+
+.col-10{
+    border:1px solid black;
+}
+
+.row__img{
+    width: 80%;
+    margin: 20px;
+}
+
+.lol{
+    border:1px solid black;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}

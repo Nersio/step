@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(../img/12814.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.planet{
+    width: 30%;
+    height: 55%;
+    border-radius: 50%;
+}
+
+.planet img{
+    width: 100%;
+}
+
+.lol{
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    z-index: 1;
+    width: 8%;
+    offset-path: path('M511 354C473 382.333 -112 408 19.9998 228C21.6666 228 68.4 222.4 242 200C226 176 65 -53 392 12.9999C452.667 11.6665 653.892 -11 698 261C716 372 652.6 398 511 354Z');
+    -webkit-animation: move 5s linear infinite ;
+}
+@-webkit-keyframes move{
+    0%{
+        offset-distance: 0%;
+    }
+
+    100%{
+        offset-distance: 100%;
+    }
+}
+
+
+/* @keyframes move{
+    0%{
+        offset-distance: 0%;
+    }
+    100%{
+        offset-distance: 100%;
+    }
+} */
+

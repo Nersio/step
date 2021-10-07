@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(83, 65, 165);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,20%);
+    gap: 20px;
+    max-width: 1440px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.wrapper{
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    margin: 20px;
+    align-self:flex-start;
+
+}
+
+.wrapper__item{
+    background: rgb(223, 213, 213);
+}
+
+.wrapper__item__img{
+    width: 100%;
+    
+}
+
+h3, p{
+    margin-left: 15px;
+}

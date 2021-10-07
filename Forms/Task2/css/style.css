@@ -1,0 +1,109 @@
+body{
+    background:url(../image/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 0 30px;
+    width: 80%;
+    height: 90vh;
+    margin: 30px auto;
+    border: 1px solid black ;
+    box-shadow:0px 0px 30px 0px rgba(12, 11, 11, 0.85);
+}
+
+.card__title{
+    color: white;
+    margin-top: 40px;
+}
+
+.card__text{
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+
+
+.first__row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.distance{
+    width:80% ;
+    display: flex;
+    justify-content:space-between;
+}
+
+.first__row .size{
+    width: 44%;
+    padding: 10px 20px;
+    
+}
+
+.first__row .new__size{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.first__row .another__size{
+    width: 30%;
+    padding: 10px 20px;
+    margin: 0 10px 0 0;  
+}
+
+.first__row .another__size:last-child{
+    margin: 0;
+}
+
+.subject{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.distance__area{
+    margin: 10px 0;
+    min-height: 100px;
+   
+}
+
+hr{
+    margin: 30px 0;
+    width: 100%;
+}
+
+.btn{
+    border:2px solid white;
+    width: 80%;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    transition: all 1s ease;
+}
+
+.btn__text{
+    margin: 7px;
+}
+
+.btn:hover{
+    transition: all 1s ease;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 50%;
+    border:5px solid red;
+    color: rgb(221, 172, 36);
+}
